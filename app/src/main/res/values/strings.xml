@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">净窗</string>
+    <string name="app_sub">启动后的广告浮层，自动帮你点掉</string>
+
+    <string name="accessibility_label">净窗 · 自动点掉广告浮层</string>
+    <string name="accessibility_description">净窗只做一件事：在应用启动或切换时读取屏幕上的按钮与文本，按你的规则自动点击「关闭 / 跳过」之类的元素。它不会截图、不会联网、不会读取输入内容。</string>
+
+    <string name="status_master_off">已关闭（总开关）</string>
+    <string name="status_on">正在运行</string>
+    <string name="status_off">无障碍未开启</string>
+    <string name="clicks_fmt">已拦截 %1$d 次</string>
+    <string name="hint_master_tip">关掉总开关即完全停止；无障碍服务需在系统设置里单独开启。</string>
+
+    <string name="btn_enable_service">开启无障碍服务</string>
+    <string name="btn_service_on">无障碍已开启</string>
+    <string name="btn_apps">按应用启用</string>
+    <string name="btn_learn">学习模式</string>
+    <string name="btn_add_global">添加一条全局规则</string>
+
+    <string name="sec_rules">规则</string>
+    <string name="sec_rules_tip">长按规则可删除；只对某个 App 生效的规则优先于全局规则。</string>
+    <string name="no_rules">还没有规则。点「学习模式」，对着广告点一下就能新建。</string>
+    <string name="tag_global">全局</string>
+
+    <string name="toast_no_settings">找不到无障碍设置页</string>
+    <string name="toast_value_empty">内容不能为空</string>
+
+    <string name="dlg_delete_title">删除规则</string>
+    <string name="dlg_delete_msg">确定删除「%1$s」这条规则？</string>
+    <string name="dlg_delete_yes">删除</string>
+    <string name="dlg_value_hint">要匹配的文本 / 正则 / id</string>
+    <string name="dlg_add_global">添加全局规则</string>
+    <string name="dlg_add_for">为 %1$s 添加规则</string>
+    <string name="dlg_save">保存</string>
+
+    <string name="apps_sub">关掉的 App 完全不处理（比如你自己的应用、不想被打扰的 App）。</string>
+    <string name="apps_empty">没有可显示的已安装应用</string>
+
+    <string name="learn_refresh">重新抓一次屏幕</string>
+    <string name="learn_need_service">无障碍服务未连接，先回首页开启。</string>
+    <string name="learn_service_off">无障碍服务未开启。先到系统设置里打开「净窗」，再回到这个页面。</string>
+    <string name="learn_no_target">没有找到目标应用窗口。先打开那个 App、等广告弹出来，再切回来点「重新抓一次屏幕」。</string>
+    <string name="learn_header">目标：%1$s · %2$d 个节点</string>
+    <string name="learn_hint">点下面任意一行，把它设成「关闭按钮」。</string>
+    <string name="learn_empty">这个界面没抓到可用节点</string>
+    <string name="learn_no_text">（无文本）</string>
+    <string name="learn_nothing_to_bind">这个节点没有文本、描述或 id，绑不了规则</string>
+    <string name="learn_pick_title">把它设成关闭按钮</string>
+    <string name="learn_pick_msg">保存后，%1$s 下次出现同类元素时会被自动点掉。</string>
+    <string name="learn_saved">已保存，下次该 App 弹出这个元素会被自动点掉</string>
+</resources>
